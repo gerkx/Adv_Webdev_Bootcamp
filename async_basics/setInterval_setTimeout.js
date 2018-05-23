@@ -42,4 +42,3 @@ var intervalId = setInterval(function(){
         clearInterval(intervalId);
     }
 }, 1000);
-
