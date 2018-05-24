@@ -1,0 +1,62 @@
+
+
+#bottom{
+    background:#16a085;
+    color: whitesmoke;
+    font-size: 1.25em;
+    padding: 25px 0;
+    border-radius: 0 0 7px 7px;
+    font-weight: 700;
+}
+
+#bottom:hover{
+    background: #1abc9c;
+}
+
+.ctr{
+    margin: 25px auto;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 1.5em;   
+}
+
+.card{
+    margin: 15px auto;
+    width: 75%;
+    background: whitesmoke;
+    border-radius: 7px;
+}
+
+.top{
+    display: flex;
+}
+
+.pic{
+    /* background: yellow; */
+    padding: 10px;
+}
+
+.info{
+    /* background: blue; */
+    padding: 20px;
+    /* line-height: 0.75em; */
+    text-align: left;
+}
+
+#fullname{
+    color: #16a085;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.user{
+    opacity: 0.75;
+    font-size: .75em;
+    line-height: 1.5em;
+}
+
+.substat{
+    margin-top: 10px;
+    font-size: .85em;
+    line-height: 1.25em;
+}
