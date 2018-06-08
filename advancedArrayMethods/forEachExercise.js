@@ -93,7 +93,7 @@ Examples:
     vowelCount('I Am awesome and so are you') // {i: 1, a: 4, e: 3, o: 3, u: 1};
 */
 function vowelCount(str){
-    var lower = str.toLowerCase().split('');
+    var lower = str.toLowerCase().split("");
     // var vowels = {a: 0, e: 0, o: };
     var vowelCount = {a: 0, e: 0, i: 0, o: 0, u: 0};
     lower.forEach(letter =>{
@@ -132,7 +132,7 @@ function vowelCountBetter(str){
                 
             }
         }
-    )
-    return obj
+    );
+    return obj;
 }
 console.log(vowelCountBetter("Elie"));
