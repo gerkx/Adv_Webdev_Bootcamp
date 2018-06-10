@@ -93,7 +93,7 @@ Examples:
 */
 
 function partition(arr, callback){
-    return arr.reduce((acc, next) => {
+    arr.reduce((acc, next) => {
         if(callback(next)){
             acc[0].push(next);
         }else{
